@@ -33,6 +33,17 @@
         <module>cloud-stream-rabbitmq-consumer8803</module>
         <module>cloud-provider-sleuth-payment8001</module>
         <module>cloud-consumer-sleuth-order80</module>
+        <module>cloudalibaba-provider-payment9001</module>
+        <module>cloudalibaba-provider-payment9002</module>
+        <module>cloudalibaba-consumer-nacos-order83</module>
+        <module>cloudalibaba-config-nacos-client3377</module>
+        <module>cloudalibaba-sentinel-service8401</module>
+        <module>cloudalibaba-provider-payment9003</module>
+        <module>cloudalibaba-provider-payment9004</module>
+        <module>cloudalibaba-consumer-nacos-order84</module>
+        <module>seata-order-service2001</module>
+        <module>seata-storage-service2002</module>
+        <module>seata-account-service2003</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
@@ -43,8 +54,8 @@
         <junit.version>4.12</junit.version>
         <log4j.version>1.2.17</log4j.version>
         <lombok.version>1.16.18</lombok.version>
-        <!--<mysql.version>8.0.18</mysql.version>-->
-        <mysql.version>5.1.8</mysql.version>
+        <mysql.version>8.0.18</mysql.version>
+        <!--<mysql.version>5.1.8</mysql.version>-->
         <druid.version>1.1.16</druid.version>
         <druid.spring.boot.starter.version>1.1.10</druid.spring.boot.starter.version>
         <spring.boot.version>2.2.2.RELEASE</spring.boot.version>
